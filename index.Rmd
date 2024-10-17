@@ -1,0 +1,32 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Jeff's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+This is an **awesome website** about data science and elmo? 
+
+Sometimes I use [google](https://www.google.com/?client=safari) to do data science when I'm stuck. 
+
+
+This is my dog. She is a cute dog. 
+
+Using the R markdown embedding: 
+
+![](images/HUN_6587.jpg)
+
+Using the html embedding: 
+
+<img src="images/HUN_6587.jpg" style="width:75%">
+
+
+If you'd like to learn more about this website, visit [this page](about.html)
+
+
+
