@@ -38,7 +38,7 @@ nyc_airbnb =
 
 Use plotly to make some quick plots. 
 
-First scatter plot 
+First scatterplot 
 
 ```{r}
 nyc_airbnb |>
@@ -51,7 +51,7 @@ nyc_airbnb |>
 ```
 
 
-NBext up -- box plot.
+Next up -- box plot.
 
 ```{r}
 nyc_airbnb |>
@@ -77,6 +77,24 @@ nyc_airbnb |>
 
 
 
+```{r}
+plot_ly(
+  z = volcano, type = "heatmap"
+)
+```
+
+
+Here's a chloropleth 
+
+```{r}
+plot_ly (
+  type = "choropleth",
+  locations = c("AZ", "CA", "VT"), 
+  locationmode = "USA-states",
+  colorscale = "Viridis" ,
+  z = c( 10, 20, 40 )) %>%
+  layout ( geo = list ( scope = "usa" ))
+```
 
 
 
