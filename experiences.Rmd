@@ -11,7 +11,7 @@ After graduating from Cornell University with a bachelor’s degree in Chemical 
 
 I had an opportunity to work closely with data, including toxicity information for drug substances. This exposure sparked my interest in the data generation and analysis process as a whole. I wanted to further explore into understanding and utilizing data, and I found biostatistics to be the most quantitative and effective means. 
 
-Below is a brif summary of my experiences. Please refer to [CV](esume_soomin_20241014_draft_copy.docx) for more details. 
+Below is a brif summary of my experiences. Please refer to [CV](soomin_you_resume_github.pdf) for more details. 
 
 
 ## Education 

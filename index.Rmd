@@ -22,7 +22,7 @@ I love spicy food and wine.
 
 I enjoy hiking, trekking and running as well. I finished my first Camino de Santiago this summer! This is a picture of a cow that I met during the walk. 
 
-<img src="images/image3.jpg" style="width:30%">
+<img src="images/image3.jpg" style="width:50%">
 
 
 

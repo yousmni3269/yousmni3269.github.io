@@ -6,7 +6,6 @@ output:
     vertical_layout: fill
 ---
 
-The NY weather data was cleaned first. Then for each plot, only the requisite information was filtered. 
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
@@ -25,62 +24,70 @@ my_ny_df =
     tmin = tmin/10, 
     prcp = prcp/10
   ) |>
-  drop_na()
-
+  drop_na() |>
+  mutate(
+    year = year(date), 
+    month = month(date))
 ```
 
 
 {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A: Temepratures of the first day of the 21st century was plotted. 
+### Chart A
 
 
-```{r, echo = FALSE, warning = FALSE}
+```{r}
 my_ny_df |>
-  filter(date == "2000-01-01") |>
-  mutate(text_label = str_c("Location: ", id)) |>
+  filter(id == "USC00301110", 
+         snow > 1) |>
+  mutate(text_label = str_c("Date: ", date, 
+                            "\nMinimum Temperature: ", tmin,
+                            "\nMaximum Temperature: ", tmax)) |>
   plot_ly(
-    x = ~tmin, y = ~tmax, color = ~id, text = ~text_label, 
-    type = "scatter", mode = "markers"
+    x = ~snow, y = ~snwd, text = ~text_label, 
+    type = "scatter", mode = "markers", color = ~year
   ) |>
   layout(
-    xaxis = list(title = "Minimum Temperature (C)"),
-    yaxis = list(title = "Maximum Temperature (C)"))  
+    xaxis = list(title = "Snowfall in Camden, NY (mm)"),
+    yaxis = list(title = "Snow depth in Camden, NY (mm)"))
+  
 ```
 
 
 {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B: The number of days with snowfall > 250mm was plotted. 
+### Chart B
 
-
-```{r, echo = FALSE, warning = FALSE}
-my_ny_df  |>
-  filter (snow > 250) |>
+```{r}
+my_ny_df |>
+  filter(snow > 250) |>
   count(id) |>
   mutate(id = fct_reorder(id, n)) |>
   plot_ly(
-    x = ~id, 
-    y = ~n, 
-    type = "bar"
+    x = ~id, y = ~n, type = "bar"
   ) |>
   layout(
     xaxis = list(title = "ID"),
-    yaxis = list(title = "Number of Days"))
+    yaxis = list(title = "Number of Days with snowfall > 250 mm"))
 ```
+
 
 ### Chart C
 
 
-```{r, include = FALSE, eval = FALSE}
-
+```{r}
 my_ny_df |>
-  filter(date > "2000-01-01") |>
-  mutate(date = fct_reorder(date, tmax)) |>
+  mutate(
+    year = year(date), 
+    month = month(date)) |>
+  filter(
+    id == "USW00094789") |>
   plot_ly(
-    x = ~date, y = ~tmax, color = ~id, 
-    type = "bax"
-  )
-
+    x = ~month, y = ~tmax, type = "box", colors = "viridis"
+  ) |>
+  layout(
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Max. Temp. of the JFK Airport (C)"))
+```
