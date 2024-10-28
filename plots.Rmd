@@ -1,28 +1,86 @@
 ---
-title: "Plots"
+title: "NY Weather Plots"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-# Here are some plots 
+The NY weather data was cleaned first. Then for each plot, only the requisite information was filtered. 
 
-You can make plots in the same way as always. 
-
-```{r, message = FALSE}
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(p8105.datasets)
 library(tidyverse)
+library(plotly)
 
-df = tibble(
-  x = rnorm(100, 2, 5), 
-  y = 1 + 2 * x - 0.5 * x^2 + rnorm(100)
-)
+data("ny_noaa")
 
-df |>
-  ggplot(aes(x = x , y = y)) + 
-  geom_point()
+my_ny_df = 
+  ny_noaa |>
+  mutate(
+    tmax = as.integer(tmax), 
+    tmin = as.integer(tmin), 
+    tmax = tmax/10, 
+    tmin = tmin/10, 
+    prcp = prcp/10
+  ) |>
+  drop_na()
+
 ```
 
 
+{data-width=650}
+-----------------------------------------------------------------------
 
+### Chart A: Temepratures of the first day of the 21st century was plotted. 
+
+
+```{r, echo = FALSE, warning = FALSE}
+my_ny_df |>
+  filter(date == "2000-01-01") |>
+  mutate(text_label = str_c("Location: ", id)) |>
+  plot_ly(
+    x = ~tmin, y = ~tmax, color = ~id, text = ~text_label, 
+    type = "scatter", mode = "markers"
+  ) |>
+  layout(
+    xaxis = list(title = "Minimum Temperature (C)"),
+    yaxis = list(title = "Maximum Temperature (C)"))  
+```
+
+
+{data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B: The number of days with snowfall > 250mm was plotted. 
+
+
+```{r, echo = FALSE, warning = FALSE}
+my_ny_df  |>
+  filter (snow > 250) |>
+  count(id) |>
+  mutate(id = fct_reorder(id, n)) |>
+  plot_ly(
+    x = ~id, 
+    y = ~n, 
+    type = "bar"
+  ) |>
+  layout(
+    xaxis = list(title = "ID"),
+    yaxis = list(title = "Number of Days"))
+```
+
+### Chart C
+
+
+```{r, include = FALSE, eval = FALSE}
+
+my_ny_df |>
+  filter(date > "2000-01-01") |>
+  mutate(date = fct_reorder(date, tmax)) |>
+  plot_ly(
+    x = ~date, y = ~tmax, color = ~id, 
+    type = "bax"
+  )
 

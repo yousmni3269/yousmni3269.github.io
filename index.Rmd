@@ -1,32 +1,29 @@
 ---
-title: "My awesome website"
+title: "Soomin You"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Jeff's awesome website
-
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
-This is an **awesome website** about data science and elmo? 
-
-Sometimes I use [google](https://www.google.com/?client=safari) to do data science when I'm stuck. 
+<img src="images/image2.jpg" style="width:30%">
 
 
-This is my dog. She is a cute dog. 
+# About Me
 
-Using the R markdown embedding: 
-
-![](images/HUN_6587.jpg)
-
-Using the html embedding: 
-
-<img src="images/HUN_6587.jpg" style="width:75%">
+I am currently a first year student studying MS [Biostatistics](https://www.publichealth.columbia.edu/academics/departments/biostatistics) at Columbia University Mailman School of Public Health. 
 
 
-If you'd like to learn more about this website, visit [this page](about.html)
+I received a BS in Chemical Engineering from [Cornell University](https://www.engineering.cornell.edu) in 2017. After graduating, I started my career at [Samsung Biologics](https://samsungbiologics.com), a Biopharmaceutical Company in South Korea and worked for about 6.5 years. 
+
+#  More About Me
+
+I love spicy food and wine. 
+
+I enjoy hiking, trekking and running as well. I finished my first Camino de Santiago this summer! This is a picture of a cow that I met during the walk. 
+
+<img src="images/image3.jpg" style="width:30%">
 
 
-NOW I CAN PUT STUFF ON THE INTERNET
+
+

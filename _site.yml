@@ -1,20 +1,20 @@
-name: "Yay internet!"
+name: "My website"
 output_dir: "."
 navbar:
-  title: "Best page ever"
+  title: "Home"
   right:
-    - text: "About"
-      href: about.html
+    - text: "Experiences"
+      href: experiences.html
     - text: "Plots"
       href: plots.html
-    - text: "Plotly"
-      href: plotly.html
-    - text: "Dashboard"
-      href: dashboard.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<sy3269@cumc.columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/yousmni3169/
+      href: http://github.com/<yousmni3269>/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/soominyou-0111468abc/
+    - text: "CV"
+      href: Resume_soomin_20241014_draft_copy.docx
 output:
   html_document:
-    theme: flatly
+    theme: lumen

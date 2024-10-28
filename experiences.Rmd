@@ -1,0 +1,70 @@
+---
+title: "Experiences"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+After graduating from Cornell University with a bachelor’s degree in Chemical Engineering, I set my sights on a career in the biopharmaceutical/ biotechnology industry. My first job was with a biopharmaceutical company in my home country South Korea, where I worked as a Validation Scientist. 
+
+I had an opportunity to work closely with data, including toxicity information for drug substances. This exposure sparked my interest in the data generation and analysis process as a whole. I wanted to further explore into understanding and utilizing data, and I found biostatistics to be the most quantitative and effective means. 
+
+Below is a brif summary of my experiences. Please refer to [CV](esume_soomin_20241014_draft_copy.docx) for more details. 
+
+
+## Education 
+
+**Master of Science in Biostatistics**, Columbia University, New York, United States of America (Expected May 2026)
+
+**Bachelor of Science in Chemical Engineering**, Cornell University, Ithaca, United States of America (May 2017)
+
+
+
+## Work Experience 
+
+**Senior Scientist, Quality Assurance**, Samsung Biologics, Songdo, Republic of Korea (Apr. 2021 – May 2024)
+
+- Successfully completed the initial qualification and release of new facilities (e.g. mRNA facility and Plant 5 drug substances facility) 
+
+- Calculated and implemented cleaning limit for drug substances and drug products by assessing their toxicity levels, degradation results, total organic carbon recovery to minimize cross contamination and ensure quality and safety 
+
+- Reviewed and approved 50 deviation and 10 change control records to capture policy violations and to improve process controls and efficiency
+
+- Supported establishment of data integrity practice in the facility  
+
+**Scientist, Validation**, Samsung Biologics, Songdo, Republic of Korea (Jul. 2017 – Apr. 2021)
+
+- Worked as validation subject matter expert to verify computerized system validation such as Manufacturing Control System (MCS) and Building Management System (BMS).
+
+- Successfully implemented backup servers for manufacturing equipment and introduction of software that ensures data security to meet the requirements of 21 CFR Part 11 and Annex 11 requirements.
+
+- Performed Technological Transfer of new products to facility: participated in assessment of allowable Total Organic Carbon (TOC) residue for each newly introduced product
+
+
+## Projects 
+
+**Risk Assessment and remediation actions for MSAT Laboratory**, Participated as Quality Assurance, Samsung Biologics 
+
+**Introduction of mRNA manufacturing facility in SBL Plant 3**, Participated as Quality Assurance, Samsung Biologics 
+
+**Continuous Improvement for Data Integrity (DI)**, Participated as Validation Subject Matter Expert, Samsung Biologics 
+
+**Chemical Engineering laboratory, Sungkyunkwan University**, Laboratory Intern 
+
+
+## Skills 
+
+**Languages** 
+
+- Native in Korean
+
+-	Fluent in English 
+
+-	Conversational in French: DELF/DALF B1 (May. 2020)
+
+**Programs**
+
+-	Proficient in Microsoft Office (Word, Excel, PowerPoint and Visio) 
+
