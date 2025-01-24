@@ -47,7 +47,7 @@ Below is a brif summary of my experiences. Please refer to [CV](soomin_you_resum
 
 **Global Violence, final group project for P8105 Data Science I**, Participated to explore factors driving serious assult, sexual violence, and intentional homicide worlwide from 2015 to 2023 using R and Github. https://projecthyee.github.io/globalviolence/
 
-**Risk Assessment and remediation actions for MSAT Laboratory**, Participated as Quality Assurance at Samsung Biologics
+**Risk Assessment and remediation actions for MSAT Laboratory**, Participated as Quality Assurance at Samsung Biologics.
 
 **Introduction of mRNA manufacturing facility in SBL Plant 3**, Participated as Quality Assurance at Samsung Biologics.
 
