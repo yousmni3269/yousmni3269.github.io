@@ -45,13 +45,16 @@ Below is a brif summary of my experiences. Please refer to [CV](soomin_you_resum
 
 ## Projects 
 
-**Risk Assessment and remediation actions for MSAT Laboratory**, Participated as Quality Assurance, Samsung Biologics 
+**Global Violence, final group project for P8105 Data Science I**, Participated to explore factors driving serious assult, sexual violence, and intentional homicide worlwide from 2015 to 2023 using R and Github. https://projecthyee.github.io/globalviolence/
 
-**Introduction of mRNA manufacturing facility in SBL Plant 3**, Participated as Quality Assurance, Samsung Biologics 
+**Risk Assessment and remediation actions for MSAT Laboratory**, Participated as Quality Assurance at Samsung Biologics.
 
-**Continuous Improvement for Data Integrity (DI)**, Participated as Validation Subject Matter Expert, Samsung Biologics 
+**Introduction of mRNA manufacturing facility in SBL Plant 3**, Participated as Quality Assurance at Samsung Biologics.
 
-**Chemical Engineering laboratory, Sungkyunkwan University**, Laboratory Intern 
+**Continuous Improvement for Data Integrity (DI)**, Participated as Validation Subject Matter Expert at Samsung Biologics.
+
+**Chemical Engineering laboratory, Sungkyunkwan University**, Participated as a laboratory Intern to assist in experiments focused on alternative energies, specifically solar and hydrogen energy.
+
 
 
 ## Skills 
