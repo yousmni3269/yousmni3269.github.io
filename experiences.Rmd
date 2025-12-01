@@ -11,7 +11,7 @@ After graduating from Cornell University with a bachelor’s degree in Chemical 
 
 I had an opportunity to work closely with data, including toxicity information for drug substances. This exposure sparked my interest in the data generation and analysis process as a whole. I wanted to further explore into understanding and utilizing data, and I found biostatistics to be the most quantitative and effective means. 
 
-Below is a brif summary of my experiences. Please refer to [CV](soomin_you_resume_github.pdf) for more details. 
+Below is a brief summary of my experiences. Please refer to [CV](CV.pdf) for more details. 
 
 
 ## Education 
@@ -19,6 +19,22 @@ Below is a brif summary of my experiences. Please refer to [CV](soomin_you_resum
 **Master of Science in Biostatistics**, Columbia University, New York, United States of America (Expected May 2026)
 
 **Bachelor of Science in Chemical Engineering**, Cornell University, Ithaca, United States of America (May 2017)
+
+
+## Research / Projects 
+
+**Research Assistant, at Columbia University Department of Biostatistics**, Under the supervision of Dr. Tian Gu, developed risk prediction models using embeddings generated from accelerometer data collected from wearable devices and compared performance with time-series foundation models using NHANES data. 
+
+**Global Violence, final group project for P8105 Data Science I**, Participated to explore factors driving serious assult, sexual violence, and intentional homicide worlwide from 2015 to 2023 using R and Github. https://projecthyee.github.io/globalviolence/
+
+**Risk Assessment and remediation actions for MSAT Laboratory**, Participated as Quality Assurance at Samsung Biologics.
+
+**Introduction of mRNA manufacturing facility in SBL Plant 3**, Participated as Quality Assurance at Samsung Biologics.
+
+**Continuous Improvement for Data Integrity (DI)**, Participated as Validation Subject Matter Expert at Samsung Biologics.
+
+**Chemical Engineering laboratory, Sungkyunkwan University**, Participated as a laboratory Intern to assist in experiments focused on alternative energies, specifically solar and hydrogen energy.
+
 
 
 
@@ -43,17 +59,6 @@ Below is a brif summary of my experiences. Please refer to [CV](soomin_you_resum
 - Performed Technological Transfer of new products to facility: participated in assessment of allowable Total Organic Carbon (TOC) residue for each newly introduced product
 
 
-## Projects 
-
-**Global Violence, final group project for P8105 Data Science I**, Participated to explore factors driving serious assult, sexual violence, and intentional homicide worlwide from 2015 to 2023 using R and Github. https://projecthyee.github.io/globalviolence/
-
-**Risk Assessment and remediation actions for MSAT Laboratory**, Participated as Quality Assurance at Samsung Biologics.
-
-**Introduction of mRNA manufacturing facility in SBL Plant 3**, Participated as Quality Assurance at Samsung Biologics.
-
-**Continuous Improvement for Data Integrity (DI)**, Participated as Validation Subject Matter Expert at Samsung Biologics.
-
-**Chemical Engineering laboratory, Sungkyunkwan University**, Participated as a laboratory Intern to assist in experiments focused on alternative energies, specifically solar and hydrogen energy.
 
 
 
@@ -70,4 +75,10 @@ Below is a brif summary of my experiences. Please refer to [CV](soomin_you_resum
 **Programs**
 
 -	Proficient in Microsoft Office (Word, Excel, PowerPoint and Visio) 
+
+- Python 
+
+- R 
+
+- MySQL
 
