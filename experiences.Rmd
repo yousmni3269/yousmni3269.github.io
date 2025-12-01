@@ -14,14 +14,14 @@ I had an opportunity to work closely with data, including toxicity information f
 Below is a brief summary of my experiences. Please refer to [CV](CV.pdf) for more details. 
 
 
-## Education 
+### Education 
 
 **Master of Science in Biostatistics**, Columbia University, New York, United States of America (Expected May 2026)
 
 **Bachelor of Science in Chemical Engineering**, Cornell University, Ithaca, United States of America (May 2017)
 
 
-## Research / Projects 
+### Research / Projects 
 
 **Research Assistant, at Columbia University Department of Biostatistics**, Under the supervision of Dr. Tian Gu, developed risk prediction models using embeddings generated from accelerometer data collected from wearable devices and compared performance with time-series foundation models using NHANES data. 
 
@@ -38,7 +38,7 @@ Below is a brief summary of my experiences. Please refer to [CV](CV.pdf) for mor
 
 
 
-## Work Experience 
+### Work Experience 
 
 **Senior Scientist, Quality Assurance**, Samsung Biologics, Songdo, Republic of Korea (Apr. 2021 – May 2024)
 
@@ -62,7 +62,7 @@ Below is a brief summary of my experiences. Please refer to [CV](CV.pdf) for mor
 
 
 
-## Skills 
+### Skills 
 
 **Languages** 
 
