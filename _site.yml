@@ -14,7 +14,7 @@ navbar:
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/soominyou-0111468abc/
     - text: "CV"
-      href: Resume_soomin_you_2025_v2.pdf
+      href: CV.pdf
 output:
   html_document:
     theme: lumen
