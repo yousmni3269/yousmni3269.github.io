@@ -8,13 +8,13 @@ navbar:
     - text: "Plots"
       href: plots.html
     - icon: fa-envelope fa-lg
-      href: mailto:<sy3269@cumc.columbia.edu>
+      href: mailto:<syou956@gmail.gom>
     - icon: fa-github fa-lg
       href: https://github.com/yousmni3269
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/soominyou-0111468abc/
     - text: "CV"
-      href: CV.pdf
+      href: CV_soomin_you.pdf
 output:
   html_document:
     theme: lumen
