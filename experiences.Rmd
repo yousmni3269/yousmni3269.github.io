@@ -28,7 +28,7 @@ Below is a brief summary of my experiences. Please refer to [CV](CV_soomin_you.p
 
 ### Research / Projects 
 
-**Research Assistant, at Columbia University Department of Biostatistics:** Working under Dr. Tian Gu to develop risk prediction models using LLM-derived embeddings from wearable accelerometer data. Our manuscript was accepted to the **AMIA 2026 Informatics Summit**.
+**Research Assistant, at Columbia University Department of Biostatistics:** Working under Dr. Tian Gu to develop risk prediction models using LLM-derived embeddings from wearable accelerometer data. Our manuscript was accepted to the **AMIA 2026 Informatics Summit**. https://github.com/yousmni3269/time_series_llm_evaluation 
 
 **Spatial Transcriptomics in Cancer Biology:** Investigating AI agent integration strategies in tumor tissues in collaboration with MD Anderson Cancer Center.
 
